@@ -1,0 +1,16 @@
+#Generar numeros consecutivos del 0-n y meterlos en una lista, usar una funcion
+
+
+
+
+
+def listnum(numero):
+    lista = []
+    for x in range(0, numero + 1):
+        lista.append(x)
+    print(lista)
+    return
+
+n = input("Ingrsa un numero para crear una lista: ")
+listnum(int(n))
+
